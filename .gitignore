@@ -1,0 +1,7 @@
+/sus
+bpf/vmlinux.h
+*_bpfel.go
+*_bpfel.o
+*.o.tmp
+*.temp-stream-*
+*.html
