@@ -55,7 +55,7 @@ findings: 14
 Нужно:
 
 - Linux с BTF в ядре (`/sys/kernel/btf/vmlinux` должен существовать), x86-64;
-- `clang`, `llvm`, `libbpf-dev`, `bpftool`, `go` (1.22+), `make`;
+- `clang`, `llvm`, `libbpf-dev`, `bpftool`, `go` (1.25+ — `go.mod` требует именно столько), `make`;
 - для `-isolate` ещё `bubblewrap` и `setpriv` (пакет `util-linux`, он почти
   везде уже есть).
 
